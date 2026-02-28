@@ -5,6 +5,7 @@ import ProductViewer from './components/productViewer'
 import Showcase from './components/Showcase'
 import Performance from './components/Performance'
 import Footer from './components/Footer'
+import Features from './components/Features'
 
 const App = () => {
     return (
@@ -14,6 +15,7 @@ const App = () => {
             <ProductViewer />
             <Showcase />
             <Performance />
+            <Features />
             <Footer />
         </main>
     )
